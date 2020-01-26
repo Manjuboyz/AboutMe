@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="text-secondary">
 
 <head>
     <meta charset="utf-8">
@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Manjunatha P</a><button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Manjunatha P</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-list-ul"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
@@ -23,7 +25,7 @@
             </div>
         </div>
     </nav>
-    <header class="text-center shadow masthead bg-primary text-white text-center" style="background-color: rgb(24,188,188);">
+    <header class="text-center shadow masthead bg-primary text-white text-center" data-bs-hover-animate="bounce">
         <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/IMG_0167.jpg">
             <h1>Manjunatha P</h1>
             <hr class="d-none d-md-flex justify-content-md-center align-items-md-start sr-only star-light">
@@ -35,8 +37,8 @@
             <h2 class="text-uppercase text-left text-secondary">&nbsp;skills &amp; tools</h2>
             <hr class="sr-only star-dark mb-5">
             <div class="row">
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-1" data-toggle="modal">C#, ASP.NET, MS SQL, Oracle, HTML, CSS, Bootstrap, Javascript, Jquery.</a></div>
-                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" href="#portfolio-modal-6" data-toggle="modal">Jenkins, Octopus, GIT, Jira, Crucible, Artifactory.</a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">C#, ASP.NET, MS SQL, Oracle, HTML, CSS, Bootstrap, Javascript, Jquery.</a></div>
+                <div class="col-md-6 col-lg-4"><a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-6">Jenkins, Octopus, GIT, Jira, Crucible, Artifactory.</a></div>
             </div>
         </div>
         <section class="text-center portfolio" id="portfolio">
@@ -47,13 +49,13 @@
             <h2 class="font-weight-light mb-0"></h2>
         </section>
     </section>
-    <section id="about" class="bg-primary text-white mb-0">
+    <section id="about" class="bg-primary text-white mb-0" style="background-color: rgb(24,139,188);">
         <div class="container">
             <h2 class="text-uppercase text-center text-white">About</h2>
             <hr class="star-light mb-5">
             <div class="row">
                 <div class="col-lg-4 ml-auto">
-                    <p class="lead">Web developer who always thrive to learn more and do more. Interested to build user friendly app mainly focused on customer centric.</p>
+                    <p class="lead">Web developer who always thrive to learn more and do more, Interested to build user friendly app mainly focused on customer centric.</p>
                 </div>
                 <div class="col-lg-4 mr-auto">
                     <p class="lead">Now currently working on de-coupling monolithic product to individual product using new tech.</p>
@@ -61,6 +63,12 @@
             </div>
         </div>
     </section>
+    <div class="contact-clean">
+        <form method="post">
+            <h2 class="text-center">Hire me?</h2><input class="form-control" type="tel" method="post" value="linkedin.com/in/manjunatha-p-a75ba95b">
+            <div class="form-group"><input class="form-control" type="email" placeholder="Phone Number" value="manjunatha.p18@gmail.com"><input class="form-control" type="tel" method="post" value="+91 9964752065"></div>
+        </form>
+    </div>
     <footer class="footer text-center">
         <div class="container">
             <div class="row">
@@ -206,6 +214,7 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
 </body>
